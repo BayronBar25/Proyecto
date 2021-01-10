@@ -5,15 +5,17 @@ body {
 }
 
 .cover {
-  height:400px;
-  background-image:url(https://cdn.glitch.com/d2f41466-8da5-49b6-a9f7-c34397bae9c6%2Frsz_1jerry-wang-lxih6qhz6ko-unsplash.jpg?v=1610206955695);
-  color:white;
+  height: 400px;
+  background-image: url(https://cdn.glitch.com/d2f41466-8da5-49b6-a9f7-c34397bae9c6%2Frsz_1jerry-wang-lxih6qhz6ko-unsplash.jpg?v=1610206955695);
+  color: white;
   background-size: cover;
   background-position: center;
   background-blend-mode: darken;
-  background-color:rgba(0.0.0.0.7)
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.card{
-box-shadow: 0 4px 6px -1px rbga(0,0,0,0,1), 0 2px 4px -1px rbga(0,0,0,0,06)
+.card {
+  border: 0 !important;
+  box-shadow: 0 4px 6px -1px rbga(0, 0, 0, 0.1),
+    0 2px 4px -1px rbga(0, 0, 0, 0.06);
 }
