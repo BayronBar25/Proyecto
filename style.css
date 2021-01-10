@@ -25,3 +25,11 @@ body {
   height:250px;
   background-blend-mode: normal;
 }
+
+.card-title{
+  min-height:2.5rem;
+}
+
+.card-text{
+  min-height:5rem;
+}
