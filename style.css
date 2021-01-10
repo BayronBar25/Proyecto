@@ -4,9 +4,6 @@ body {
   margin: 0em;
 }
 
-.navbar {
-  color: white;
-}
 .cover {
   height: 400px;
   background-image: url(https://cdn.glitch.com/d2f41466-8da5-49b6-a9f7-c34397bae9c6%2Frsz_1jerry-wang-lxih6qhz6ko-unsplash.jpg?v=1610206955695);
@@ -20,4 +17,10 @@ body {
 .card {
   box-shadow: 0 4px 6px -1px rbga(0, 0, 0, 0.1),
     0 2px 4px -1px rbga(0, 0, 0, 0.06);
+}
+
+
+.cover-small{
+  height:200px;
+  background-blend-mode: normal;
 }
