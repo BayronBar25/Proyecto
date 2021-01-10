@@ -2,6 +2,7 @@
 
 body {
   margin: 0em;
+  font-family: 'Indie Flower', cursive;
 }
 
 .cover {
@@ -20,16 +21,15 @@ body {
     0 2px 4px -1px rgba(0, 0, 0, 0.1);
 }
 
-
-.cover-small{
-  height:250px;
+.cover-small {
+  height: 250px;
   background-blend-mode: normal;
 }
 
-.card-title{
-  min-height:2.5rem;
+.card-title {
+  min-height: 2.5rem;
 }
 
-.card-text{
-  min-height:5rem;
+.card-text {
+  min-height: 5rem;
 }
