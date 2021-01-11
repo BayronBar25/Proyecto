@@ -95,6 +95,7 @@ h5 {
   height:80px;
   background-size:cover;
   background-position:center;
+  margin: 0 auto;
 }
 
 @keyframes slider {
