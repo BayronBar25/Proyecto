@@ -13,9 +13,10 @@ h5 {
   font-family: "Fjalla One", sans-serif;
 }
 
-.navbar-nav{
-  
+.navbar-expand{
+  -sm|-md|-lg|-xl;
 }
+
 
 .cover {
   height: 400px;
