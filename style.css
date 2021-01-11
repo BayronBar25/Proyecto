@@ -79,7 +79,7 @@ h5 {
 
 .slider-container {
   transform: translateX(0);
-  animation: slider 10s infinite;
+  animation: slider 14s infinite;
 }
 
 .image-container {
@@ -121,4 +121,8 @@ h5 {
   
   95%{
     transform: translateX(-300%)
+  }
+  
+  100%{
+    transform: translateX(0)
   }
