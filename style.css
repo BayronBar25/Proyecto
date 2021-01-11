@@ -42,13 +42,15 @@ h5 {
   min-height: 5rem;
 }
 
-.product-stripe {
+.product-stripe,
+.slider {
   overflow-x: scroll;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
 
-.stripe-container {
+.stripe-container,
+.slider-container {
   display: flex;
 }
 
@@ -71,10 +73,29 @@ h5 {
   height: 100%;
 }
 
+.slider {
+  overflow: hidden;
+}
+
+.slider-container {
+  transform: translateX(0);
+  animation: slider 2s;
+}
+
 .image-container {
   width: 100%;
   padding-top: 56.25%;
   background-size: cover;
   background-position: center;
-  flex-shrink:0;
+  flex-shrink: 0;
+}
+
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
